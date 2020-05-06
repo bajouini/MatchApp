@@ -1,0 +1,53 @@
+body {
+  background-color: #ebebeb;
+  font-family: "Open Sans" ,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+}
+.Content {
+    padding-bottom: 13.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: #e0e1e2;
+}
+
+// Login - Signup
+@import 'Src/components/Login/Login';
+@import 'Src/components/Signup/Signup';
+
+// EditProfil
+@import 'Src/components/EditProfil/EditProfil';
+@import 'Src/components/EditProfil/AddPhotos/AddPhotos';
+@import 'Src/components/EditProfil/BasicInformations/BasicInformations';
+@import 'Src/components/EditProfil/AddPhotos/Preview/loadPreview/loadPreview';
+@import 'Src/components/fileUpload/fileUpload';
+@import 'Src/components/EditProfil/AddInterests/AddInterests';
+@import 'Src/components/EditProfil/AddInterests/Interests/Interests';
+@import 'Src/components/EditProfil/Location/Location';
+
+// Menu
+@import 'Src/components/Menu/Menu';
+
+// Wall
+@import 'Src/containers/Wall/Wall';
+@import 'Src/components/UserMiniCard/UserMiniCard';
+@import 'Src/components/ModalUser/ModalUser';
+@import 'Src/containers/Wall/SearchTags/SearchTags';
+@import 'Src/components/EditProfil/ChangeLocation/ChangeLocation';
+
+// Chat
+@import 'Src/containers/Chat/Chat';
+@import 'Src/components/ModalChat/ModalChat';
+
+// Notifications
+@import 'Src/components/Notifications/NotificationsHistory/NotificationsHistory';

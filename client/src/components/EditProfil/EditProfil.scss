@@ -1,0 +1,31 @@
+.CompleteTitle {
+  color: white;
+  font-size: 2.8em;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 5px 2px 10px rgba(0,0,0,0.3);
+}
+
+.ui.indicating.progress[data-percent] .bar {
+  background: linear-gradient(-90deg, #110b1f, #192740) !important;
+}
+
+.ui.progress {
+  background: white !important;
+  border-radius: 15px !important;
+  transition : all 3s ease-in-out;
+}
+
+.EditProfilArrow {
+  transition: all ease-in-out 0.15s;
+  color: #ffffff !important;
+  font-size: 5em !important;
+  transform: scale(1) !important;
+  &:hover {
+    transform: scale(1.2) !important;
+  }
+}
+
+.EditProfileContainer {
+  padding: 0 1em;
+}

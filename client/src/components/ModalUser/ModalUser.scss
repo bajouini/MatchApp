@@ -1,0 +1,48 @@
+.sameInterest {
+  background-color: #122034 !important;
+  color: white !important;
+}
+
+#like {
+  background-color: #db366e;
+  color: white;
+}
+#hide {
+  background-color: #000000;
+  color: white;
+}
+#blockuser {
+  background-color: #c82325;
+  color: white;
+}
+#signal {
+  background-color: #c82325;
+  color: white;
+}
+
+.LastConnection {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.8em !important;
+  font-weight: 400;
+  & i {
+    color: #710209;
+  }
+}
+
+.Online {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.8em !important;
+  font-weight: 400;
+  & i {
+    color: #00c700;
+  }
+}
+
+.spanLike {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.8em !important;
+  font-weight: 400;
+  & i {
+    color: #db366e;
+  }
+}

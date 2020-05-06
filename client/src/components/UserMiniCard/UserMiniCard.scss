@@ -1,0 +1,90 @@
+.CardContainer {
+  background: grey;
+  width: 170px;
+  height: 220px;
+  position: relative;
+  margin: 1em;
+  overflow: auto !important;
+}
+
+.TopCardContainer img {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  z-index: 301 !important;
+}
+.ImageCard {
+  object-fit: cover !important;
+}
+
+.likesSpan {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.BottomCardGrid {
+  padding-top: 3.9em !important;
+  position: absolute;
+  bottom: 0 !important;
+  padding-left: inherit !important;
+  padding-right: inherit !important;
+  left: 0 !important;
+  margin: auto !important;
+  height: 55%;
+  width: 100%;
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1) 70%);
+  z-index: 302 !important;
+}
+
+#includeMyInterests {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+
+.DistanceUserMinCard {
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.MinCardAge {
+  font-size: 0.8em;
+  color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.content {
+  border-top: none !important;
+}
+#DimmerUserMinCard {
+  border-radius: 10px !important;
+
+}
+.userMinCard {
+  overflow: auto !important;
+  border-radius: 10px !important;
+  border: none !important;
+  box-shadow: -1px 15px 30px -2px rgba(0, 0, 0, 0.2) !important;
+
+
+}
+
+.ui.card > .extra, .ui.cards > .card > .extra {
+  background: #db366e;
+  & a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-family: "Open Sans", sans-serif !important;
+  }
+}
+
+.header {
+  font-size: 1.4em !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+
+.contentUserMinCard {
+  background: linear-gradient(180deg, white, #e8e8e8) !important;
+}

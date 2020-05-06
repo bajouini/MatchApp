@@ -1,0 +1,235 @@
+.WallContainer {
+  padding: 2em;
+  margin: auto;
+  padding-top: 0.6em !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none !important;
+   background: rgb(219, 54, 110) !important;
+   border-radius: 50rem !important;
+   height: 1.5em !important;
+   width: 1.5em !important;
+ }
+
+input[type="range"] {
+  -webkit-appearance: none !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-radius: 50rem !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  padding: 3px 5px !important;
+  width: 100% !important;
+}
+
+.searchButton {
+  background-color: #671833 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  .searchButton button:hover {
+    box-shadow: -1px 5px 5px -2px rgba(0, 0, 0, 0.2) !important;
+  }
+
+}
+
+.ButtonFilters {
+  border-radius: 15px !important;
+
+  color: #c1c1c1 !important;
+  & button {
+    color: #565656 !important;
+    background-color: #cbcbcb !important
+  }
+  & i {
+    color: white !important;
+    background-color: #858585 !important;
+  }
+  & button:hover{
+    color: white !important;
+    background-color: #6e6e6e !important;
+  }
+}
+
+.bottomFilter {
+  margin: -1.5em !important;
+  border-radius: 10px !important;
+  margin-top: 1em !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  background-color: #db366e !important;
+}
+
+.SegmentFilter {
+  border-radius: 10px !important;
+  border: 1px solid #d8d8d8 !important;
+  padding: 1.5em !important;
+  box-shadow: 4px 5px 12px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.DistanceRangeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin-bottom: 0.7em;
+}
+
+.DistanceRangeTitle {
+  color: white;
+  font-family: "Open Sans" , sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+
+}
+
+.input-range__track--active {
+  background: #db366e;
+}
+
+.RangeTitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.input-range__track {
+  height: 1.2rem !important;
+}
+
+.input-range__slider {
+
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  margin-top: -1.35rem !important;
+  background: #db366e !important;
+  border: none !important;
+  box-shadow: -1px 0px 3px #0000003d!important;
+}
+.input-range__label--value {
+  top: -2.6rem !important;
+  font-family: "Open Sans", sans-serif  !important;
+  display: none !important;
+}
+
+.input-range__label--min, .input-range__label--max {
+  bottom: -1.8rem !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.input-range__label--max {
+  right: 1rem !important;
+  display: none !important;
+}
+
+.input-range__label--min {
+  left: 0.8rem !important;
+  display: none !important;
+}
+
+.RowImages {
+  & img {
+    box-shadow: 7px 7px 34px rgba(0,0,0,0.2);
+    border-radius: 10px !important;
+  }
+}
+
+.CardModal {
+  border-radius: 10px !important;
+}
+.BioSegment {
+  margin: 2.5rem !important;
+  color: grey !important;
+  font-weight: bold;
+  background-color: #f6f6f6 !important;
+  border-radius: 10px !important;
+}
+
+.Cardtitle {
+  font-weight: bold;
+  color: #3e3e3e;
+  font-size: 1.2em !important;
+
+}
+
+.CheckBoxContainer {
+  .ui.inverted  .segment {
+    border: none !important;
+  }
+}
+
+#includeMyInterests {
+  color: white !important;
+  text-align: left !important;
+  font-size: 1em !important;
+  font-weight: 700;
+  margin-top: 0.2em !important;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.1em !important;
+}
+
+.IncludeInterestsTitle {
+  font-family: "Open Sans", sans-serif;
+  background: none !important;
+  color: white !important;
+  & label {
+    color: white !important;
+    font-family: "Open Sans" , sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1.5em !important;
+    margin: 0 !important;
+  }
+}
+
+.ButtonSearch {
+  text-align: center !important;
+  & #search {
+    border-radius: 10px;
+  }
+}
+
+.CardHeader {
+  background: #db366e !important;
+  color: white !important;
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.ModalCard {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.CardHeaderTitle {
+  font-size: 2.9em !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.ModalProfilView {
+  padding: 2em !important;
+  border-radius: 10px !important;
+}
+
+.actions {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.CardUserActions {
+  & .segments {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  & #like {
+    background: #db366e !important;
+    color: white;
+    border-radius: 10px;
+  }
+  & #hide {
+    background: #132033 !important;
+    color: white;
+    border-radius: 10px;
+  }
+}
